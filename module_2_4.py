@@ -8,7 +8,7 @@ for num in numbers:
         if num % i == 0:
             is_prime = False
             break
-    if is_prime and num > 1:
+    if is_prime and num > 0:
         primes.append(num)
     else:
          not_primes.append(num)
